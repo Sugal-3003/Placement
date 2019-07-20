@@ -1,4 +1,4 @@
-i,k=input().split()
+i,k=map(str,input().split())
 s=0
 if len(i)>len(k):
   i,k=k,i
