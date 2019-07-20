@@ -4,7 +4,7 @@ if len(i)>len(k):
   i,k=k,i
 p=0
 while p<len(i):
-  vs+=(ord(k[p])-ord(i[p]))
+  s+=(ord(k[p])-ord(i[p]))
   p+=1
 for p in range(p,len(k)):
   s+=ord(k[p])-ord('a')+1
