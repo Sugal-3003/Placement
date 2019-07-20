@@ -1,8 +1,8 @@
-a,b=input().split()
-d=abs(len(a)-len(b))
-for j in range(len(a)):
-    if len(b)==1 and a[j] in a:
+s,b=input().split()
+d=abs(len(s)-len(b))
+for j in range(len(s)):
+    if len(b)==1 and s[j] in s:
         break
-    if a[j]!=b[j]:
+    if s[j]!=b[j]:
         d+=1
 print(d)
