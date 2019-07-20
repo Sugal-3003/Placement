@@ -1,10 +1,10 @@
-j,k=input().split()
+i,k=input().split()
 s=0
-if len(j)>len(k):
-  j,k=k,j
+if len(i)>len(k):
+  i,k=k,i
 p=0
-while p<len(j):
-  vs+=(ord(k[p])-ord(j[p]))
+while p<len(i):
+  vs+=(ord(k[p])-ord(i[p]))
   p+=1
 for p in range(p,len(k)):
   s+=ord(k[p])-ord('a')+1
